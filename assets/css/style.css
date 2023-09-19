@@ -1,0 +1,156 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 3% 3% 28%;
+    border: 3px solid dimgray;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+
+
+
+#seconds {
+    font-size: 1.0em;
+
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+
+
+#viewHighScores {
+    margin: 0;
+    color: mediumorchid;
+    display: inline;
+    float: left;
+    border: none;
+    background: none;
+}
+
+#timer{
+    margin: 0;
+    display: inline;
+    float: right;
+}
+
+
+#startQuiz{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#quizTitle{
+    margin-top: 8%;
+    text-align: center;
+}
+
+#quizInstruction{
+    margin: 0% 15% 0%;
+    text-align: center;
+    font-size: 14pt;
+}
+
+#question{
+    margin: 8% 8% 3% 15%;
+}
+
+#right-or-wrong{
+    margin: 1% 15%;
+    text-align: left;
+    color: lightslategray;
+    font-style: italic;
+    font-weight: lighter;
+    text-indent: 3%;
+    border-top: 2px solid lightslategray;
+}
+
+#finalScoreContainer{
+    text-align: center;
+
+}
+#finalScore{
+    font-size: 1.5em;
+
+}
+
+#highScoresContainer {
+    text-align: center;
+}
+
+.answer{
+    border: none;
+    border-radius: 10px;
+    font-size: 12pt;
+    text-align: left;
+    color: aliceblue;
+    background-color: darkslateblue;
+    padding: 8px 15px;
+    margin: 3px;
+    width: 230px;    
+    cursor: pointer;
+}
+
+
+#startBtn {
+    border: none;
+    border-radius: 10px;
+    font-size: 12pt;
+    color: aliceblue;
+    background-color: darkslateblue;
+    padding: 12px 15px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+
+.hide{
+    display: none;
+}
+
+#buttonBox{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+#scoreSubmit,
+#goBack,
+#clearScores{
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 12pt;
+    color: aliceblue;
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+
+#startBtn:active,
+.answer:active,
+#scoreSubmit:active,
+#goBack:active,
+#clearScores:active {
+    transform: scale(0.98);
+    background-color: mediumorchid;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Countdown Code Quiz</title>
+
+</head>
+<header>
+    
+
+
+</header>
+
+<body>
+    
+<!-- High scores and time remaining -->
+<div class='scoreTimerBox'>
+    <button id='viewHighScores'>View High Scores</button>
+
+    <div class='hide' id='timer'> 
+       <span id='seconds'></span>
+    </div>
+
+</div>
+
+<!-- Start Quiz Button -->
+
+
+    <div id='startQuiz' class='start' >
+        <h1 id="quizTitle">Coding Quiz Challenge</h1>
+            
+            <div id='quizInstruction'>
+        <p>Choose the correct answers to the code related questions before the time runs out. You will be penalized for answering incorrectly!
+        </p>
+    </div>
+        <div>
+            <button id='startBtn'>Start Quiz</button>
+        </div>
+    </div>
+
+
+<!-- Question Container -->
+
+    <div id='questionContainer' class='hide'>
+        <h1 id='question'>Question </h1>
+        <div id='buttonBox'>
+
+        </div>
+        <h2 id='right-or-wrong'></h2>
+    </div>
+
+<!-- Final Score Container -->
+
+
+    <div id='finalScoreContainer' class='hide'>
+        <h1 id='finalScore'>Game Over</h1>
+        <h2 id='finalScoreValue'><span id='finalScore'></span></h2>
+        <form>
+            <label for='initials'>Enter initials: </label>
+            <input id="initials" name="initials"></input>
+            <button id="scoreSubmit">Submit</button>
+    </form>
+    </div>
+
+<!-- High Scores Container -->
+<div id='highScoresContainer' class='hide'>
+    <h1>High Scores</h1>
+    <ol id='highScoresList'></ol>
+    <button id='goBack'>Back</button>
+    <button id='clearScores'>Reset</button>
+</div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
